@@ -1,0 +1,24 @@
+kiểu dữ liệu ( datastyles ) trong SQL:
+	text:    text: không giới hạn độ dài
+		varchar: chiều dài có hạn, k được quá giới hạn quy định ... varchar(50), varchar(15), varchar = text
+		char : 	char(10)... sẽ dùng khoảng trắng để lấp cho đủ 10 nếu kí tư trong ô chưa đủ 
+  
+
+	interger:  SMALLINT , INTERGER, SERIAL là kiểu dữ liệu tạo ra và tự động tăng dần
+	
+
+	float: FLOAT(n) độ chính xác ít nhất là n
+		  REAL or FLOAT8 : số thực dùng dấu phẩy động
+		  NUMBERIC or NUMBERIC (p,s) : là 1 số thực có p là phần số và s là phần thập phân
+	
+
+	date: DATE: lưu ngày tháng năm
+		TIME : lưu trữ thời gian
+		TIMESTAMP: date + time
+		TIMESTAMPTZ: dữ liệu thời gian nhật biết muối giờ
+		INTERVAL: lưu trữ khoảng thời gian
+
+
+
+huynhgiahung987	0335535473Hung.
+	
